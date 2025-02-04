@@ -1,6 +1,8 @@
-# [DEMACIA]
+![Alt text](image/DemaciaCrest.png)
 
-## À propos
+# <span style="color:gold;">DEMACIA
+
+## <span style="color:blue;">À propos
 
 Le projet consiste en une todolist, sans front, avec les fonctions :
 
@@ -8,46 +10,43 @@ Le projet consiste en une todolist, sans front, avec les fonctions :
 
     -Ajouter une tache
 
+    -Afficher une tache
+
     -Supprimer une tache
 
     -Supprimer toute les taches
 
-    -Afficher une tache
 
-## Table des matières
+
+## <span style="color:blue;">Table des matières
 
 - 📦 [Prérequis](#prérequis)
 - 🚀 [Installation](#installation)
 - 🛠️ [Utilisation](#utilisation)
 - 🏗️ [Construit avec](#construit-avec)
-- 📚 [Documentation](#documentation)
 
-## Prérequis
+## <span style="color:blue;">Prérequis
 
 Avoir python installé sur son ordinateur.
 
-## Installation
+## <span style="color:blue;">Installation
 
-[Étapes avec exemples des commandes à lancer pour installer le projet en local]
+Télécharger et dézipper.
 
-## Utilisation
+## <span style="color:blue;">Utilisation
 
 Dans un terminal se placer dans le dossier et effectuer la commande :
 
-    -py app.py
+    -   py app.py
 
-## Construit avec
+## <span style="color:blue;">Construit avec
 
-### Langages
+### <span style="color:blue;">Langages
 
 Le code est en python.
 
-### Outils
+### <span style="color:blue;">Outils
 
-#### CI
+#### <span style="color:blue;">CI
 
-[Liste de tout ce qui permet l'intégration automatisée du projet avec description + lien vers la documentation et mise en avant des comptes, organisations et variables]
-
-#### Déploiement
-
-[Liste de tout ce qui permet le déploiement du projet avec description + lien vers la documentation et mise en avant des comptes, organisations et variables]
+CircleCI
