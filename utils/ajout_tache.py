@@ -1,23 +1,10 @@
-################################
-#                              #
-#        Par Benjamin          #
-#                              #
-################################
+def ajout_tache(task):
 
-import os  # Même structure que ton collègue
+    tache=input("Donne une tache : ")
 
-# Liste des tâches initiales
-task = ['Tomates', 'Pain']
+    task.append(tache)
 
-def ajout_tache():
-    """Ajoute une tâche à la liste."""
-    
-    nouvelle_tache = input("Entrez la nouvelle tâche : ").strip()
+    print("ajout d'une tache")
 
-    if not nouvelle_tache:
-        print("⚠️ Impossible d'ajouter une tâche vide.")
-        return
-    
-    # Ajoute la tâche à la liste
-    task.append(nouvelle_tache)
-    print(f"✅ Tâche ajoutée : {nouvelle_tache}")
+    return task
+
