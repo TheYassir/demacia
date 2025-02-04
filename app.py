@@ -1,4 +1,5 @@
 import os
+import affiche_tache
 
 task  = ['Tomates','Pain']
 
@@ -12,7 +13,10 @@ def supprime_tache():
     return 1
 
 def affiche_tache():
-    return 1
+   
+    import affiche_tache  
+    affiche_tache.affiche_tache()  
+
 
 def main():
     while True:
