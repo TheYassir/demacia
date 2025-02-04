@@ -1,1 +1,9 @@
 .env
+
+get-pip.py
+
+Lib
+
+Scripts
+
+__pycache__
