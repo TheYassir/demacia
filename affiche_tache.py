@@ -6,7 +6,7 @@ def affiche_tache():
         task = []  
 
     if not task:
-        print("\n📭 Aucune tâche enregistrée.")
+        print("Aucune tâche enregistrée.")
     else:
         print("\n📝 Liste des tâches :")
         for index, t in enumerate(task, start=1):
