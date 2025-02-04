@@ -7,3 +7,4 @@ def ajout_tache(task):
     print("ajout d'une tache")
 
     return task
+
