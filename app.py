@@ -13,7 +13,10 @@ def supprime_tache():
     return 1
 
 def affiche_tache():
-     affiche_tache.affiche_tache()
+   
+    import affiche_tache  
+    affiche_tache.affiche_tache()  
+
 
 def main():
     while True:
