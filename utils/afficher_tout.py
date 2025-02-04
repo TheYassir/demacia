@@ -1,9 +1,4 @@
-def affiche_tout_tache():
-    
-    try:
-        from app import task  
-    except ImportError:
-        task = []  
+def affiche_tout_tache(task):
 
     if not task:
         print("Aucune tâche enregistrée.")
@@ -11,3 +6,5 @@ def affiche_tout_tache():
         print("\n📝 Liste des tâches :")
         for index, t in enumerate(task, start=1):
             print(f"{index}. {t}")
+
+
