@@ -1,22 +1,10 @@
-import os
-import affiche_tache
+from .utils.afficher_une import affiche_une_tache
+from .utils.ajout_tache import ajout_tache
+from .utils.afficher_tout import affiche_tout_tache
+from .utils.supprimer_tout import supprimer_tout_tache
+from .utils.supprimer_une import supprime_tache
 
 task  = ['Tomates','Pain']
-
-def ajout_tache():
-    return 1
-
-def complete_tache():
-    return 1
-
-def supprime_tache():
-    return 1
-
-def affiche_tache():
-   
-    import affiche_tache  
-    affiche_tache.affiche_tache()  
-
 
 def main():
     while True:
@@ -30,14 +18,16 @@ def main():
         choice = input("Choisissez une option : ")
         
         if choice == '1':
-            affiche_tache()
+            affiche_tout_tache()
         elif choice == '2':
             ajout_tache()
         elif choice == '3':
-            complete_tache()
+            affiche_une_tache()
         elif choice == '4':
             supprime_tache()
         elif choice == '5':
+            supprimer_tout_tache()
+        elif choice == '6':
             print("Au revoir!")
             break
         else:
