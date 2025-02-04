@@ -5,7 +5,7 @@ task  = ['Tomates','Pain']
 def ajout_tache():
     return 1
 
-def complete_tache():
+def affiche_une_tache():
     return 1
 
 def supprime_tache():
@@ -30,7 +30,7 @@ def main():
         elif choice == '2':
             ajout_tache()
         elif choice == '3':
-            complete_tache()
+            affiche_une_tache()
         elif choice == '4':
             supprime_tache()
         elif choice == '5':
